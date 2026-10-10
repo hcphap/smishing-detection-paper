@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+env/
+venv/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Data & Models (tránh up file nặng >100MB lên GitHub)
+*.pt
+*.pth
+*.bin
+*.joblib
+*.csv
+*.tsv
+
+# Giữ lại các file .gitkeep
+!data/.gitkeep
+!models/.gitkeep
+!paper/.gitkeep
+
+# IDE & OS
+.DS_Store
+.vscode/
+.idea/

@@ -1,0 +1,10 @@
+numpy>=2.0.0
+torch
+transformers
+torchmetrics
+captum
+scikit-learn
+pandas
+matplotlib
+seaborn
+joblib
