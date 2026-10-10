@@ -1,6 +1,4 @@
-Edge-AI Smishing Detection: Cost-Sensitive Lightweight Deep Learning
-Official research companion repository
-Paper: Edge-AI enabled smishing and suspicious SMS detection: a cost-sensitive and lightweight deep learning architecture
+Edge-AI enabled smishing and suspicious SMS detection: a cost-sensitive and lightweight deep learning architecture
 Author: Huynh Cong Phap
 Journal: Journal of Information and Telecommunication (2026)
 DOI: https://doi.org/10.1080/24751839.2026.2713250
