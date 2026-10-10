@@ -1,52 +1,95 @@
-Edge-AI enabled smishing and suspicious SMS detection: a cost-sensitive and lightweight deep learning architecture
-Author: Huynh Cong Phap
-Journal: Journal of Information and Telecommunication (2026)
-DOI: https://doi.org/10.1080/24751839.2026.2713250
+## 🔬 Research Impact, Reuse & Citation Opportunities
 
-If this research is relevant to your work, please cite the published article:
+### Why This Research Matters
 
-Phap, H. C. (2026). Edge-AI enabled smishing and suspicious SMS detection: a cost-sensitive and lightweight deep learning architecture. Journal of Information and Telecommunication, 1–15. https://doi.org/10.1080/24751839.2026.2713250
+Smishing detection presents a practical challenge at the intersection of cybersecurity, natural language processing, cost-sensitive machine learning, and resource-constrained Edge-AI.
 
+This study investigates how lightweight neural architectures and asymmetric classification costs can be combined to support suspicious SMS detection.
 
-Overview
-Smishing and suspicious SMS detection pose two important challenges: asymmetric misclassification costs and limited computational resources on edge devices.
-This research investigates a lightweight, cost-sensitive deep learning architecture combining Bidirectional Gated Recurrent Units (BiGRU), Masked Global Pooling, and Weighted Binary Cross-Entropy (WBCE).
-The study examines predictive performance, cross-domain generalization, cost-sensitive decision thresholds, and deployment-oriented efficiency.
-Key Contributions
-1.	Cost-sensitive risk formulation: A mathematical interpretation of weighted binary cross-entropy through risk minimization under a reweighted probability measure.
-2.	Lightweight neural architecture: BiGRU with Masked Global Pooling to exclude padding positions from aggregated sequence representations.
-3.	Cross-domain evaluation: Experiments using UCI SMS Spam Collection and LSDST-2022 with a harmonized suspicious-SMS label space.
-4.	Deployment efficiency: A compact model with low CPU inference latency in the reported benchmarking environment.
-5.	Operational risk analysis: Investigation of decision thresholds under different false-negative and false-positive costs.
-Selected Experimental Findings
-Metric	Proposed model	DistilBERT reference
-Serialized model footprint	5.21 MB	256.02 MB
-CPU model-only latency	0.25 ms	40.78 ms
-These figures are reported under the experimental profiling conditions described in the paper. DistilBERT is used as a footprint and latency reference, not as a jointly fine-tuned predictive-performance baseline.
-Datasets
-•	UCI SMS Spam Collection
-•	LSDST-2022
-Dataset access, preprocessing, binary label harmonization, and experimental splits should follow the published methodology.
-Reproducibility
-The research also includes a Google Colab implementation:
-https://colab.research.google.com/drive/1f39iLfjNz9E7x7BlyUL37HIt67PJu7Ue
-Additional verified source code, configuration files, experiment instructions, and reproducibility materials can be organized in this repository.
-Research Applications
-This work may be relevant to research on:
-•	SMS phishing and smishing detection
-•	Cost-sensitive classification
-•	Imbalanced learning and asymmetric error costs
-•	Lightweight neural networks for Edge-AI
-•	Security-oriented natural language processing
-•	Cross-domain robustness of short-text classifiers
+The published research provides a foundation for further investigation into efficient, security-aware, and deployment-oriented text classification.
 
-Contact
-Huynh Cong Phap
-Vietnam–Korea University of Information and Communication Technology, The University of Danang, Vietnam
-Email: hcphap@vku.udn.vn
-ORCID: https://orcid.org/0009-0004-2548-1637
-Publication
-Published online: August 6, 2026.
-Publisher: Taylor & Francis.
-Full article: https://doi.org/10.1080/24751839.2026.2713250
+**Read the published paper:** https://doi.org/10.1080/24751839.2026.2713250
 
+### Research Areas Where This Work May Be Relevant
+
+| Research Area | Potential Research Applications |
+|---|---|
+| Smishing and phishing detection | SMS threat detection, malicious message classification, mobile security |
+| Cost-sensitive machine learning | Asymmetric classification costs, false-negative reduction, risk-sensitive decision-making |
+| Imbalanced classification | Weighted loss functions, class imbalance, threshold optimization |
+| Edge-AI | Lightweight neural architectures, memory efficiency, inference latency |
+| Natural language processing | Short-text classification, BiGRU, masked pooling |
+| Domain generalization | Cross-dataset evaluation, distribution shifts, robustness analysis |
+| Explainable and trustworthy AI | Future investigation of interpretability, calibration, and reliability |
+
+### How to Build Upon This Research
+
+Researchers may consider extending or comparing the published approach in the following directions:
+
+**1. Cost-Sensitive Smishing Detection**
+
+Investigate alternative cost-sensitive objectives, class weighting strategies, and decision thresholds under asymmetric misclassification costs.
+
+**2. Lightweight Neural Architectures**
+
+Compare BiGRU-based architectures with CNNs, GRUs, compact Transformers, and other efficient neural networks under consistent evaluation conditions.
+
+**3. Edge Deployment and Optimization**
+
+Explore quantization, pruning, knowledge distillation, and deployment on resource-constrained devices.
+
+**4. Cross-Domain Generalization**
+
+Evaluate the robustness of suspicious SMS classifiers across datasets, languages, geographic regions, and evolving attack patterns.
+
+**5. Multilingual Smishing Detection**
+
+Extend the methodology to multilingual SMS datasets and low-resource languages.
+
+**6. Robustness Against Evolving Threats**
+
+Investigate adversarial text perturbations, obfuscated phishing messages, and concept drift in SMS-based attacks.
+
+**7. Security-Oriented Evaluation**
+
+Study calibration, expected misclassification cost, false-negative risk, and threshold selection under operational constraints.
+
+### Reproducibility and Benchmarking
+
+Researchers interested in reproducing or extending this work are encouraged to:
+
+- Consult the original experimental methodology.
+- Reuse the documented preprocessing and label harmonization procedures.
+- Apply consistent dataset partitions and evaluation metrics.
+- Report both predictive performance and computational efficiency.
+- Clearly distinguish experimental results from new extensions or modifications.
+
+**Google Colab:** https://colab.research.google.com/drive/1f39iLfjNz9E7x7BlyUL37HIt67PJu7Ue
+
+### Citation and Academic Acknowledgment
+
+If the published methodology, theoretical analysis, experimental findings, or implementation are relevant to your research, please consider citing the original article:
+
+**Phap, H. C. (2026).** Edge-AI enabled smishing and suspicious SMS detection: a cost-sensitive and lightweight deep learning architecture. *Journal of Information and Telecommunication*, 1–15.
+
+**DOI:** https://doi.org/10.1080/24751839.2026.2713250
+
+### Research Collaboration
+
+We welcome scientific discussions, reproducibility feedback, independent evaluations, and research collaborations in:
+
+- Edge-AI and efficient deep learning
+- Cybersecurity and smishing detection
+- Cost-sensitive classification
+- Natural language processing
+- Robust and trustworthy machine learning
+
+Researchers are welcome to open a GitHub Issue for technical questions or contact the author regarding potential research collaboration.
+
+**Contact:** hcphap@vku.udn.vn
+
+**Institution:** Vietnam–Korea University of Information and Communication Technology, The University of Danang, Vietnam
+
+**ORCID:** https://orcid.org/0009-0004-2548-1637
+
+We appreciate independent verification, constructive feedback, and appropriate scholarly acknowledgment.
