@@ -4,6 +4,7 @@ Journal: Journal of Information and Telecommunication (2026)
 DOI: https://doi.org/10.1080/24751839.2026.2713250
 
 If this research is relevant to your work, please cite the published article:
+
 Phap, H. C. (2026). Edge-AI enabled smishing and suspicious SMS detection: a cost-sensitive and lightweight deep learning architecture. Journal of Information and Telecommunication, 1–15. https://doi.org/10.1080/24751839.2026.2713250
 
 
